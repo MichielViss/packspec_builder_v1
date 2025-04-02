@@ -2,14 +2,14 @@
 This project attempts to create a packspec relevant upload file using data extracted from SAP ERP table MARM. This output file of this project can be used in EWM transaction /SCWM/IPU and specificed as the source "logical file". Note there are elements within this project that are hard coded and would require the system be setup before the packspec details can be maintained.
 
 ## Hard coded elements (_opportunities for improvement within these hardcoded elements_)
-Packspec group naming convention (PL2A, PL2B, PL2C, etc.). Has been determined from the config of the client relating to the naming convention of the configured packspec groups. This will have be changed or aligned if implementing the solution at a new client (_additions will be made to the source code to include this logic but currently this is not considered_)
-Packspec level set naming convention
-Packspec elenment type naming convention and configuration related to level type and defined level set (obtained from config)
-HU Type naming convention
-Packaging material type naming convention
-Units of measure being considered (EA, CS, SW and PAL)
-SC unit 
-Valid from and Valid to date
+- Packspec group naming convention (PL2A, PL2B, PL2C, etc.). Has been determined from the config of the client relating to the naming convention of the configured packspec groups. This will have be changed or aligned if implementing the solution at a new client (_additions will be made to the source code to include this logic but currently this is not considered_)
+- Packspec level set naming convention
+- Packspec elenment type naming convention and configuration related to level type and defined level set (obtained from config)
+- HU Type naming convention
+- Packaging material type naming convention
+- Units of measure being considered (EA, CS, SW and PAL)
+- SC unit 
+- Valid from and Valid to date
 
 
 ### Consider defining the solution according to bin types
